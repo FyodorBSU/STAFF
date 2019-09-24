@@ -8,11 +8,11 @@ int main()
 	double s, h, k, m;
 
 	cout << "Enter the numerals for comparing" << endl;
-	cout << "s = " << endl;
+	cout << "s = ";
 	cin >> s;
-	cout << "h = " << endl;
+	cout << "h = ";
 	cin >> h;
-	cout << "k = " << endl;
+	cout << "k = ";
 	cin >> k;
 
 	if (s < k)
