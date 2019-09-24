@@ -8,11 +8,11 @@ int main()
 	double s, h, k;
 
 	cout << "Enter the sides of triangle" << endl;
-	cout << "s = " << endl;
+	cout << "s = ";
 	cin >> s;
-	cout << "h = " << endl;
+	cout << "h = " ;
 	cin >> h;
-	cout << "k = " << endl;
+	cout << "k = " ;
 	cin >> k;
 
 	if (s == k)
@@ -28,7 +28,8 @@ int main()
 		else cout << "Triangle is versalite";
 
 	}
-
+         system ("pause");
+	return 0;
 
 
 }
